@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int n,i,sum=0;
+int n,i,tot=0;
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-sum=sum+i;
+tot=tot+i;
 }
-printf("%d",sum);
+printf("%d",tot);
 return 0;
 }
